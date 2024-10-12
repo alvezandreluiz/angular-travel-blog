@@ -76,8 +76,10 @@ export class HomeComponent {
     const currentImage = this.selectedImage;
     const clickedImageIndex = this.images.indexOf(image);
 
-    //
+    //Updates the selected image
     this.selectedImage = image;
+
+    //Ensures no duplication when updating the index
     this.images.splice(this.originalImageIndex, 1, currentImage);
     this.originalImageIndex = clickedImageIndex;
   }
