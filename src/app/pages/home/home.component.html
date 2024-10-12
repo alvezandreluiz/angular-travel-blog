@@ -1,0 +1,14 @@
+<header>
+    <app-menu-bar></app-menu-bar>
+</header>
+
+<app-menu-title></app-menu-title>
+
+<div class="container__articles">
+    <div class="articles__main">
+        <app-big-card [image]="selectedImage"></app-big-card>
+    </div>
+    <div class="articles__others">
+        <app-small-card [images]="filteredImages" (imageSelected)="onImageSelected($event)"></app-small-card>
+    </div>
+</div>

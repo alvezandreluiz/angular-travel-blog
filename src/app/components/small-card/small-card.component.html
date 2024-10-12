@@ -1,0 +1,20 @@
+<div class="container__small-card">
+    <div class="container__small-card-content" *ngFor="let image of images" (click)="selectImage(image)">
+        <div class="small-card__photo"> 
+            <img 
+                [src]="image.url"
+                alt="{{ image.title }}" 
+                height="200px"
+                srcset=""
+            >
+        </div>
+        <div class="small-card__title">
+            <h3>
+                <a (click)="openTitleLink(image.titleLink, $event)" href="{{ image.titleLink }}" target="_blank">{{ image.title }}</a>
+            </h3>
+        </div>
+        <div class="small-card__separator">
+            <hr>
+        </div>
+    </div>
+</div>

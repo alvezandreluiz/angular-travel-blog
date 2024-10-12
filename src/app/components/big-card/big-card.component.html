@@ -1,0 +1,17 @@
+<div class="container__big-card">
+
+    <div class="big-card__photo">
+        <img [src]="image.url"
+             alt="{{ image.title }}"
+             height="200px"
+             srcset="">
+    </div>
+
+    <div class="big-card__title">
+        <h1><a href="{{ image.titleLink }}" target="_blank">{{ image.title }}</a></h1>
+    </div>
+
+    <div class="big-card__description">
+        <p>{{ image.description }}</p>
+    </div>
+</div>
