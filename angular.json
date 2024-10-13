@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/dio-angular-blog",
+            "outputPath": "dist/angular-travel-blog",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -33,6 +33,7 @@
           },
           "configurations": {
             "production": {
+              "sourceMap": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -59,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "dio-angular-blog:build:production"
+              "buildTarget": "angular-travel-blog:build:production"
             },
             "development": {
-              "buildTarget": "dio-angular-blog:build:development"
+              "buildTarget": "angular-travel-blog:build:development"
             }
           },
           "defaultConfiguration": "development"
