@@ -10,5 +10,5 @@ import { HomeComponent } from './pages/home/home.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'dio-angular-blog';
+  title = 'angular-travel-blog';
 }

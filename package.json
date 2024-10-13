@@ -1,11 +1,11 @@
 {
-  "name": "dio-angular-blog",
+  "name": "angular-travel-blog",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=/dio-angular-blog/",
-    "ghpages": "angular-cli-ghpages --dir=dist/dio-angular-blog",
+    "build": "ng build --base-href=/angular-travel-blog/",
+    "ghpages": "angular-cli-ghpages --dir=dist/angular-travel-blog",
     "deploy": "npm run build & npm run ghpages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

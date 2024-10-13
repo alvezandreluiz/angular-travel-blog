@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dio-angular-blog": {
+    "angular-travel-blog": {
       "projectType": "application",
       "schematics": {},
       "root": "",
