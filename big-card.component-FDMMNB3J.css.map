@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/big-card/big-card.component.css"],
+  "sourcesContent": [".container__big-card{\r\n    margin-left: 20px;\r\n    margin-right: 20px;\r\n    width: 400px;\r\n    height: 500px;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: flex-start;\r\n    justify-content: flex-start;\r\n}\r\n\r\n.big-card__title > h1{\r\n    margin-top: 15px;\r\n    font-size: 25px;\r\n}\r\n\r\n.big-card__description > p{\r\n    margin-top: 10px;\r\n    color: grey;\r\n}\r\n\r\n.big-card__photo > img{\r\n    width: 100%;\r\n    min-width: 385px;\r\n}"],
+  "mappings": "AAAA,CAAC,oBACG,YAAa,KACb,aAAc,KACd,MAAO,MACP,OAAQ,MAER,QAAS,KACT,eAAgB,OAChB,YAAa,WACb,gBAAiB,UACrB,CAEA,CAAC,eAAgB,CAAE,GACf,WAAY,KACZ,UAAW,IACf,CAEA,CAAC,qBAAsB,CAAE,EACrB,WAAY,KACZ,MAAO,IACX,CAEA,CAAC,eAAgB,CAAE,IACf,MAAO,KACP,UAAW,KACf",
+  "names": []
+}

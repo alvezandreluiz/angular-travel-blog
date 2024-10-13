@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/small-card/small-card.component.css"],
+  "sourcesContent": ["\r\n.container__small-card {\r\n    width: 900px;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    gap: 15px;\r\n    justify-content: space-between;\r\n}\r\n\r\n.container__small-card-content{\r\n    width: calc(33.33% - 10px);\r\n    margin-bottom: 15px;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.small-card__photo > img{\r\n    width: 250px;\r\n    min-width: 200px;\r\n    height: 155px;\r\n    margin-left: 20px;\r\n    cursor: pointer;\r\n}\r\n\r\n.small-card__title{\r\n    text-align: center;\r\n}\r\n\r\n.small-card__title > h3{\r\n    font-size: 20px;\r\n}\r\n\r\n.small-card__separator{\r\n    margin-top: 10px;\r\n}"],
+  "mappings": "AACA,CAAC,sBACG,MAAO,MACP,QAAS,KACT,UAAW,KACX,IAAK,KACL,gBAAiB,aACrB,CAEA,CAAC,8BACG,MAAO,KAAK,OAAO,EAAE,MACrB,cAAe,KACf,WAAY,UAChB,CAEA,CAAC,iBAAkB,CAAE,IACjB,MAAO,MACP,UAAW,MACX,OAAQ,MACR,YAAa,KACb,OAAQ,OACZ,CAEA,CAAC,kBACG,WAAY,MAChB,CAEA,CAJC,iBAIkB,CAAE,GACjB,UAAW,IACf,CAEA,CAAC,sBACG,WAAY,IAChB",
+  "names": []
+}

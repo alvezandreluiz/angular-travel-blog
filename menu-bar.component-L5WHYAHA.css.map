@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/menu-bar/menu-bar.component.css"],
+  "sourcesContent": [".container__menu-bar > ul{\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n\r\n.container__menu-bar > ul > li{\r\n    margin-right: 20px;\r\n    list-style: none;\r\n}"],
+  "mappings": "AAAA,CAAC,mBAAoB,CAAE,GACnB,QAAS,KACT,eAAgB,GACpB,CAEA,CALC,mBAKoB,CAAE,EAAG,CAAE,GACxB,aAAc,KACd,WAAY,IAChB",
+  "names": []
+}

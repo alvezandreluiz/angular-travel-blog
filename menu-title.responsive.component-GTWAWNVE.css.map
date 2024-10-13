@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/menu-title/menu-title.responsive.component.css"],
+  "sourcesContent": ["@media screen and (max-width:600px) {\r\n    .container__menu-title > h1{\r\n        font-size: 30px;\r\n    }\r\n}"],
+  "mappings": "AAAA,OAAO,OAAO,IAAI,CAAC,SAAS,CAAC,OACzB,CAAC,qBAAsB,CAAE,GACrB,UAAW,IACf,CACJ",
+  "names": []
+}

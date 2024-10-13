@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles.css"],
+  "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    background-color: #111111;\r\n    color: white;\r\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n}\r\n\r\na{\r\n    text-decoration: none;\r\n}"],
+  "mappings": "AACA,EADA,OAEY,EAFZ,QAGa,EACT,WAAY,WACZ,iBAAkB,KAClB,MAAO,KACP,YAAa,QAAU,CAAE,MAAM,CAAE,MAAM,CAAE,OAAO,CAAE,UACtD,CAEA,EACI,gBAAiB,IACrB",
+  "names": []
+}
