@@ -1,4 +1,9 @@
-# DioAngularBlog
+# Angular Travel Blog
+
+![website picture](/public/travelblog.jpg)
+
+:point_right:[**Visite o website do projeto**](https://alvezandreluiz.github.io/angular-travel-blog/)<br />
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
@@ -14,13 +19,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Ghpages
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run ghpages` to publish the project on GitHub Pages.
 
-## Running end-to-end tests
+## Deploy
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `npm run deploy` to build and public the project in a single command.
 
 ## Further help
 
