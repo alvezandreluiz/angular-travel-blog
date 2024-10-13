@@ -1,5 +1,7 @@
 # Angular Travel Blog
 
+<h3>A travel blog with links to more information in the photos and titles.</h3>
+
 ![website picture](/public/travelblog.jpg)
 
 :point_right:[**Visit the project website**](https://alvezandreluiz.github.io/angular-travel-blog/)<br />
@@ -25,7 +27,7 @@ Run `npm run ghpages` to publish the project on GitHub Pages.
 
 ## Deploy
 
-Run `npm run deploy` to build and public the project in a single command.
+Run `npm run deploy` to build and publish the project in a single command.
 
 ## Further help
 
